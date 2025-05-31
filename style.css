@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 350px;
+}
+
+header {
+    background-image: url('images/basketball.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding-block: 200px;
+    color: aliceblue;
+}
